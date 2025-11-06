@@ -1,7 +1,7 @@
 const resumeBtn = document.getElementById("resume-btn");
 
 const downloadFile = () => {
-    const url = "files/AaronMcCollum_Resume.pdf";
+    const url = "files/AaronMcCollum_SiteResume.pdf";
 
     let req = new XMLHttpRequest();
     req.open("GET", url, true);
@@ -11,7 +11,7 @@ const downloadFile = () => {
         let url = window.URL ||window.webkitURL;
         link = url.createObjectURL(blob);
         let a = document.createElement("a");
-        a.setAttribute("download", "AaronMcCollum_Resume.pdf");
+        a.setAttribute("download", "AaronMcCollum_SiteResume.pdf");
         a.setAttribute("href", link);
         document.body.appendChild(a);
         a.click();
