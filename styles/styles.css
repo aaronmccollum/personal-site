@@ -1,0 +1,60 @@
+* {
+    margin: 5px 3% 5px 3%;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav > ul > li {
+    padding-right: 25px;
+    font-size: 1.1em;
+    transition:
+        font-size 0.25s;
+}
+
+nav > ul > li:hover {
+    font-size: 1.2em;
+}
+
+#blog-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0 25px 0 0;
+    transition:
+        font-size 0.25s;
+}
+
+#blog-link:hover {
+    font-size: 1.2em;
+}
+
+#resume-btn {
+    border-radius: 15px;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 1.1em;
+    transition: 
+        border 0.25s;
+}
+
+#resume-btn:hover {
+    border: 1px solid orange;
+}
