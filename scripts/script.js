@@ -11,7 +11,7 @@ const downloadFile = () => {
         let url = window.URL ||window.webkitURL;
         link = url.createObjectURL(blob);
         let a = document.createElement("a");
-        a.setAttribute("download", fileName);
+        a.setAttribute("download", "AaronMcCollum_Resume.pdf");
         a.setAttribute("href", link);
         document.body.appendChild(a);
         a.click();
